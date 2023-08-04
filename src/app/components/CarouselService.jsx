@@ -72,7 +72,6 @@ function CarouselServices() {
           {tents.map((item) => (
             <Carousel.Item
               key={item.id}
-              interval={5000}
               style={{ height: "420px", width: "100%" }}
             >
               <div key={index} className="border-gray-600 p-14">

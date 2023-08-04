@@ -49,7 +49,7 @@ function CarouselFood() {
     >
       <div className="w-full md:w-[calc(60%)] flex flex-col items-center justify-center">
         <h2 className="text-white uppercase text-2xl mt-20">Хоол</h2>
-        <div className="w-[calc(95%)] md:w-full block md:grid grid-cols-3 mt-10">
+        {/* <div className="w-[calc(95%)] md:w-full block md:grid grid-cols-3 mt-10">
           {tents.map((item, index) => {
             return (
               <div
@@ -72,6 +72,31 @@ function CarouselFood() {
               </div>
             );
           })}
+        </div> */}
+        <div className="w-[calc(100%)] md:w-full mt-10 px-2">
+          <div className="flex overflow-x-auto">
+            {tents.map((item, index) => (
+              <div
+                key={index}
+                className="border-[1px] border-gray-600 flex flex-col items-center p-4 m-2 flex-shrink-0"
+                style={{ maxWidth: "300px" }} // Set a minimum width for each item
+              >
+                <img
+                  src={`${item.imageUrl}`}
+                  alt="ger"
+                  className="w-[calc(80%)] h-[200px] object-fit"
+                />
+
+                <h6 className="text-center mt-10">{item.title}</h6>
+                <h6 className="text-center mt-3 text-sm font-light">
+                  Үнэ <strong>{item.price}</strong>
+                </h6>
+                <p className="text-center text-gray-400 text-sm font-light mt-1">
+                  {item.sub}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>

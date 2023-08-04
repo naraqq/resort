@@ -66,7 +66,6 @@ function AboutCamp() {
           {aboutList.map((item) => (
             <Carousel.Item
               key={item.id}
-              interval={5000}
               style={{ height: "330px", width: "100%" }}
             >
               <div

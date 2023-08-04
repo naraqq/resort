@@ -5,7 +5,7 @@ function CarouselTent() {
   const tents = [
     {
       id: 1,
-      title: "FOREST TENT",
+      title: "GER",
       body: [
         "Accomodation 2/3/4 persons",
         "Barbecue and a grill",

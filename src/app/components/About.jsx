@@ -15,7 +15,7 @@ function About() {
       </div>
       <div className="mt-20 flex !h-[calc(50%)] justify-center">
         <iframe
-          className="w-[calc(90%)] md:w-[calc(60%)] min-h-[400px] md:!min-h-[500px]"
+          className="w-[calc(90%)] md:w-[calc(60%)] min-h-[300px] md:!min-h-[500px]"
           src="https://www.youtube.com/embed/CxrXQ_X2CMo"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

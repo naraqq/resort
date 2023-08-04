@@ -13,7 +13,7 @@ function CarouselTent() {
         "individual hammock",
       ],
       imageUrl: "ger.jpg",
-      price: " ₮70'000",
+      price: " ₮70&#39;000",
       sub: "for 1 night",
     },
     {

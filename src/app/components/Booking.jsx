@@ -15,7 +15,7 @@ function Booking() {
         </h1>
         <p className="text-center text-gray-400 text-sm font-light mt-5">
           Prices are for double occupance for 1 night. Additional <br /> place -
-          ₮10'000 per person per day
+          ₮10&#39;000 per person per day
         </p>
       </div>
       <div className="absolute top-[calc(40%)] w-full left-1/2 transform -translate-x-1/2 -translate-y-1/2">
@@ -23,15 +23,15 @@ function Booking() {
           <div className="w-[calc(85%)] md:w-[calc(60%)] border-cus px-2 py-4 text-white flex justify-between">
             <span>FOREST CAMP</span>
             <div className="w-1/2 flex justify-around">
-              <span className="">₮70'000</span>
-              <span>₮80'000</span>
+              <span className="">₮70&#39;000</span>
+              <span>₮80&#39;000</span>
             </div>
           </div>
           <div className="w-[calc(85%)] md:w-[calc(60%)] border-cus border-b-cus  px-2 py-4 text-white flex justify-between">
             <span>LAKE TENT</span>
             <div className="w-1/2 flex justify-around">
-              <span className="">₮50'000</span>
-              <span>₮60'000</span>
+              <span className="">₮50&#39;000</span>
+              <span>₮60&#39;000</span>
             </div>
           </div>
         </div>

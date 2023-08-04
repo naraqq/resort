@@ -21,10 +21,7 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
       </Head>
-      <body className={inter.className}>
-        {children}
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"></script>
-      </body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }

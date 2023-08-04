@@ -13,7 +13,7 @@ function CarouselTent() {
         "individual hammock",
       ],
       imageUrl: "ger.jpg",
-      price: " ₮70&#39;000",
+      price: " ₮70'000",
       sub: "for 1 night",
     },
     {
@@ -37,12 +37,12 @@ function CarouselTent() {
     >
       <h2 className="text-white uppercase text-2xl mt-20 text-center">Гэр</h2>
       <div className="w-full md:w-[calc(60%)] flex flex-col items-center justify-center">
-        <div className="w-[calc(90%)] md:w-full block md:grid grid-cols-2 mt-10">
+        <div className="w-full block md:grid grid-cols-2 mt-10">
           {tents.map((item, index) => {
             return (
               <div
                 key={index}
-                className="border hover:border-gray-400 transition-all border-gray-600 p-4 m-4 flex flex-col justify-center"
+                className="!border-[1px] !border-gray-500 hover:border-gray-400 transition-all border-gray-600 p-4 m-4 flex flex-col justify-center"
               >
                 <img
                   src={`${item.imageUrl}`}
@@ -50,8 +50,8 @@ function CarouselTent() {
                   className="object-fit h-[200px] md:h-[300px]"
                 />
 
-                <h3 className="text-center mt-10">{item.title}</h3>
-                <ul className="mt-2">
+                <h6 className="text-center mt-10 font-light">{item.title}</h6>
+                <ul className="mt-2 p-0">
                   {item.body.map((text, i) => {
                     return (
                       <li
@@ -63,9 +63,9 @@ function CarouselTent() {
                     );
                   })}
                 </ul>
-                <h3 className="text-center mt-10">
+                <h6 className="text-center mt-10 font-extralight">
                   from <strong>{item.price}</strong>
-                </h3>
+                </h6>
                 <p className="text-center text-gray-400 text-sm font-light mt-1">
                   {item.sub}
                 </p>

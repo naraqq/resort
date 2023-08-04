@@ -9,7 +9,7 @@ function Welcome() {
         />
         <div className="cover-overlay"></div>{" "}
       </div>
-      <div className="absolute top-[calc(45%)] left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <div className="absolute top-[calc(35%)] left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <h1 className="text-white text-lg md:text-2xl text-center">
           Тавтай морил
         </h1>
@@ -17,8 +17,8 @@ function Welcome() {
           Үүрэг ресорт
         </h1>
       </div>
-      <div className="z-10 absolute top-[calc(85%)] left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-        <button className="text-white  text-[15px] select-none uppercase hover:!ring-[1px] text-center px-12 py-5 border  ring-gray-200 font-light">
+      <div className="z-10 absolute top-[calc(75%)] left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        <button className="text-white  text-[15px] select-none uppercase hover:!ring-[1px] text-center !px-12 !py-5 border  ring-gray-200 font-light">
           Дэлгэрэнгүй
         </button>
       </div>

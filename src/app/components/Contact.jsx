@@ -16,7 +16,7 @@ function Contact() {
       <p className="text-gray-300 text-sm text-center mt-1">
         E-mail: uuregresortmongolia@gmail.com
       </p>
-      <p className="text-gray-500 text-sm text-center mt-1">
+      <p className="text-gray-500 text-sm text-center mt-5">
         A tour camp located by the shore of Uureg lake, Mongolia Увс аймгийн
         Үүрэг нуурын дэргэдэх бааз
       </p>

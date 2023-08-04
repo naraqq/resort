@@ -1,5 +1,7 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
+import { Carousel } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 function CarouselServices() {
   const tents = [
     {
@@ -31,6 +33,10 @@ function CarouselServices() {
       sub: "for 3 hour",
     },
   ];
+  const [index, setIndex] = useState(0);
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+  };
   return (
     <div
       id="services"
@@ -38,7 +44,7 @@ function CarouselServices() {
     >
       <div className="w-full md:w-[calc(60%)] flex flex-col items-center justify-center">
         <h2 className="text-white uppercase text-2xl mt-20">Үйлчилгээ</h2>
-        <div className="w-[calc(80%)] md:w-full block md:grid grid-cols-4 mt-10">
+        {/* <div className="w-[calc(80%)] md:w-full block md:grid grid-cols-4 mt-10">
           {tents.map((item, index) => {
             return (
               <div key={index} className="border-gray-600 p-4">
@@ -48,18 +54,48 @@ function CarouselServices() {
                   className="w-full h-[200px]"
                 />
 
-                <h3 className="text-center mt-10">{item.title}</h3>
+                <h6 className="text-center mt-10 font-extralight">
+                  {item.title}
+                </h6>
 
                 <p className="text-center text-gray-400 text-sm font-light mt-1">
                   {item.sub}
                 </p>
-                <h3 className="text-center mt-2 text-sm">
+                <h6 className="text-center mt-2 text-sm font-light">
                   <strong>{item.price}</strong>
-                </h3>
+                </h6>
               </div>
             );
           })}
-        </div>
+        </div> */}
+        <Carousel activeIndex={index} onSelect={handleSelect}>
+          {tents.map((item) => (
+            <Carousel.Item
+              key={item.id}
+              interval={5000}
+              style={{ height: "420px", width: "100%" }}
+            >
+              <div key={index} className="border-gray-600 p-14">
+                <img
+                  src={`${item.imageUrl}`}
+                  alt="ger"
+                  className="w-[300px] h-[200px]"
+                />
+
+                <h6 className="text-center mt-10 font-extralight">
+                  {item.title}
+                </h6>
+
+                <p className="text-center text-gray-400 text-sm font-light mt-1">
+                  {item.sub}
+                </p>
+                <h6 className="text-center mt-2 text-sm font-light">
+                  <strong>{item.price}</strong>
+                </h6>
+              </div>
+            </Carousel.Item>
+          ))}
+        </Carousel>
       </div>
     </div>
   );

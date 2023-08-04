@@ -13,12 +13,12 @@ function Booking() {
         <h1 className="text-white text-xl md:text-2xl uppercase text-center">
           Захиалга
         </h1>
-        <p className="text-center text-gray-400 text-sm font-light mt-5">
+        <p className="text-center text-gray-400 text-sm font-light mt-5 px-2">
           Prices are for double occupance for 1 night. Additional <br /> place -
           ₮10&#39;000 per person per day
         </p>
       </div>
-      <div className="absolute top-[calc(40%)] w-full left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <div className="absolute top-[calc(45%)] w-full left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <div className="w-full flex flex-col items-center justify-center">
           <div className="w-[calc(85%)] md:w-[calc(60%)] border-cus px-2 py-4 text-white flex justify-between">
             <span>FOREST CAMP</span>
@@ -37,7 +37,7 @@ function Booking() {
         </div>
       </div>
       <div className="z-20 !cursor-pointer absolute top-[calc(85%)] left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-        <button className="text-white  text-[15px] select-none uppercase hover:!ring-[1px] text-center px-10 py-5 border  ring-gray-200 font-light">
+        <button className="text-white  text-[15px] select-none uppercase hover:!ring-[1px] text-center !px-6 !py-5 border  ring-gray-200 font-light">
           Захиалга өгөх
         </button>
       </div>

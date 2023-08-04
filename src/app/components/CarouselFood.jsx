@@ -54,7 +54,7 @@ function CarouselFood() {
             return (
               <div
                 key={index}
-                className="border border-gray-600 flex flex-col items-center p-4 m-4"
+                className="!border-[1px] border-gray-600 flex flex-col items-center p-4 m-4"
               >
                 <img
                   src={`${item.imageUrl}`}
@@ -62,10 +62,10 @@ function CarouselFood() {
                   className="w-[calc(80%)] h-[200px] object-fit"
                 />
 
-                <h3 className="text-center mt-10">{item.title}</h3>
-                <h3 className="text-center mt-3 text-sm">
+                <h6 className="text-center mt-10">{item.title}</h6>
+                <h6 className="text-center mt-3 text-sm font-light">
                   Үнэ <strong>{item.price}</strong>
-                </h3>
+                </h6>
                 <p className="text-center text-gray-400 text-sm font-light mt-1">
                   {item.sub}
                 </p>

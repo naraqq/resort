@@ -24,7 +24,7 @@ function Welcome() {
           <Link
             className="text-white no-underline text-[15px] select-none uppercase "
             href="#about"
-            scroll={true}
+            scroll={false}
           >
             Дэлгэрэнгүй
           </Link>

@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 function Welcome() {
   return (
     <div>
@@ -20,14 +18,8 @@ function Welcome() {
         </h1>
       </div>
       <div className="z-10 absolute top-[calc(75%)] left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-        <button className=" hover:!ring-[1px] text-center !px-12 !py-4 border  ring-gray-200 font-light">
-          <Link
-            className="text-white no-underline text-[15px] select-none uppercase "
-            href="#about"
-            scroll={false}
-          >
-            Дэлгэрэнгүй
-          </Link>
+        <button className="text-white no-underline text-[15px] select-none uppercase  hover:!ring-[1px] text-center !px-12 !py-4 border  ring-gray-200 font-light">
+          Дэлгэрэнгүй
         </button>
       </div>
       <div className="z-10 absolute bottom-0 w-full blur h-40 bg-transparent shadow-cus-bottom"></div>

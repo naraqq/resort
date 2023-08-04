@@ -8,15 +8,15 @@ function CarouselServices() {
       id: 0,
       title: "Supsurf rent",
       imageUrl: "services/supsurf.jpg",
-      price: " ₮35'000",
+      price: " ₮55'000",
       sub: "for 1 hour",
     },
     {
       id: 1,
       title: "Boat (up to 4 people)",
       imageUrl: "services/boat.jpg",
-      price: " ₮75'000",
-      sub: "for 1 night",
+      price: " ₮125'000",
+      sub: "for 1 hour",
     },
     {
       id: 2,
@@ -29,7 +29,7 @@ function CarouselServices() {
       id: 3,
       title: "Lake Cycling Tour.",
       imageUrl: "services/bicycle_tour.jpg",
-      price: " ₮50'000",
+      price: " ₮30'000",
       sub: "for 3 hour",
     },
   ];

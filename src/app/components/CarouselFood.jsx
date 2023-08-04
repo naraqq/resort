@@ -13,7 +13,7 @@ function CarouselFood() {
       ],
       imageUrl: "food/breakfast.jpg",
       price: " ₮12'000",
-      sub: "for 1 night",
+      sub: "8am-11am",
     },
     {
       id: 1,
@@ -26,7 +26,7 @@ function CarouselFood() {
       ],
       imageUrl: "food/lunch.jpg",
       price: " ₮15'000",
-      sub: "for 1 night",
+      sub: "12pm-3pm",
     },
     {
       id: 2,
@@ -39,7 +39,7 @@ function CarouselFood() {
       ],
       imageUrl: "food/dinner.jpg",
       price: " ₮18'000",
-      sub: "for 1 night",
+      sub: "6pm-9pm",
     },
   ];
   return (
